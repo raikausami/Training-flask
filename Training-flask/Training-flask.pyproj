@@ -28,45 +28,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
-    <Compile Include="Training_flask\__init__.py" />
-    <Compile Include="Training_flask\views.py" />
+    <Compile Include="HelloFlask\__init__.py" />
+    <Compile Include="HelloFlask\views.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Training_flask\" />
-    <Folder Include="Training_flask\static\" />
-    <Folder Include="Training_flask\static\content\" />
-    <Folder Include="Training_flask\static\fonts\" />
-    <Folder Include="Training_flask\static\scripts\" />
-    <Folder Include="Training_flask\templates\" />
+    <Folder Include="HelloFlask\" />
+    <Folder Include="HelloFlask\static\" />
+    <Folder Include="HelloFlask\static\content\" />
+    <Folder Include="HelloFlask\static\jpg\" />
+    <Folder Include="HelloFlask\static\scripts\" />
+    <Folder Include="HelloFlask\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloFlask\static\content\ress.css" />
+    <Content Include="HelloFlask\static\content\style.css" />
+    <Content Include="HelloFlask\static\jpg\20292311.jpg" />
+    <Content Include="HelloFlask\static\scripts\script.js" />
     <Content Include="requirements.txt" />
-    <Content Include="Training_flask\static\content\bootstrap.css" />
-    <Content Include="Training_flask\static\content\bootstrap.min.css" />
-    <Content Include="Training_flask\static\content\site.css" />
-    <Content Include="Training_flask\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Training_flask\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Training_flask\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Training_flask\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Training_flask\static\scripts\bootstrap.js" />
-    <Content Include="Training_flask\static\scripts\bootstrap.min.js" />
-    <Content Include="Training_flask\static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Training_flask\static\scripts\jquery-1.10.2.js" />
-    <Content Include="Training_flask\static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="Training_flask\static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="Training_flask\static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Training_flask\static\scripts\jquery.validate.js" />
-    <Content Include="Training_flask\static\scripts\jquery.validate.min.js" />
-    <Content Include="Training_flask\static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Training_flask\static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Training_flask\static\scripts\modernizr-2.6.2.js" />
-    <Content Include="Training_flask\static\scripts\respond.js" />
-    <Content Include="Training_flask\static\scripts\respond.min.js" />
-    <Content Include="Training_flask\static\scripts\_references.js" />
-    <Content Include="Training_flask\templates\about.html" />
-    <Content Include="Training_flask\templates\contact.html" />
-    <Content Include="Training_flask\templates\index.html" />
-    <Content Include="Training_flask\templates\layout.html" />
+    <Content Include="HelloFlask\templates\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
