@@ -49,12 +49,12 @@ li {
  見出し
 ---------------------------------*/
 .title {
-  font-size: 34px;
-  line-height: 1;
-  margin-bottom: 40px;
-  text-align: center;
-  letter-spacing: .1em;
-  color: #f5b5d5;
+    font-size: 34px;
+    line-height: 1;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: .1em;
+    color: #a0d8ef;
 }
 
 .lead {
@@ -77,11 +77,11 @@ li {
 }
 
 .header-title {
-  font-family: "Dancing Script", cursive;
-  font-size: 72px;
-  line-height: 1.2;
-  margin-bottom: 20px;
-  color: #f5b5d5;
+    font-family: "Dancing Script", cursive;
+    font-size: 72px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #a0d8ef;
 }
 .header-subtitle {
   font-family: "Amatic SC", cursive;
@@ -106,18 +106,18 @@ li {
 }
 
 .sub-header-title {
-  font-family: "Dancing Script", cursive;
-  font-size: 40px;
-  line-height: 1.2;
-  margin-bottom: 5px;
-  color: #f5b5d5;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    color: #a0d8ef;
 }
 .sub-header-subtitle {
-  font-family: "Amatic SC", cursive;
-  font-size: 16px;
-  line-height: 1;
-  letter-spacing: .08em;
-  color: #333;
+    font-family: "Amatic SC", cursive;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: .08em;
+    color: #a0d8ef;
 }
 
 /*--------------------------------
@@ -144,17 +144,17 @@ li {
   margin: 0 20px;
 }
 
-.gnav-item a {
-  position: relative;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1;
-  display: inline-block;
-  padding: 5px 0;
-  transition: .3s;
-  letter-spacing: .05em;
-  color: #333;
-}
+    .gnav-item a {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1;
+        display: inline-block;
+        padding: 5px 0;
+        transition: .3s;
+        letter-spacing: .05em;
+        color: #a0d8ef;
+    }
 
 .gnav-item a:hover {
   opacity: .8;
@@ -272,30 +272,30 @@ li {
  ページトップ
 ---------------------------------*/
 .page-top {
-  font-weight: bold;
-  padding: 10px;
-  cursor: pointer;
-  text-align: center;
-  background-color: #fadcea;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #e0ffff;
 }
 
-.page-top .material-icons-outlined {
-  vertical-align: bottom;
-  color: #333;
-}
+    .page-top .material-icons-outlined {
+        vertical-align: bottom;
+        color: #e0ffff;
+    }
 
 /*--------------------------------
  フッター
 ---------------------------------*/
 .footer {
-  padding: 30px;
-  background-color: #efc4d8;
+    padding: 30px;
+    background-color: #a0d8ef;
 }
 
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: #333;
 }
 
 /*--------------------------------
@@ -437,21 +437,6 @@ li {
     flex: 0 0 48%;
     margin-right: 0;
     margin-bottom: 30px;
-  }
-
-  /* Skill */
-  .skill-list {
-    display: block;
-    margin-bottom: 0;
-  }
-
-  .skill-item {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-
-  .skill-item:last-child {
-    margin-bottom: 0;
   }
 
   /* About */

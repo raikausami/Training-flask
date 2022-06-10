@@ -42,6 +42,7 @@
   <ItemGroup>
     <Content Include="HelloFlask\static\content\ress.css" />
     <Content Include="HelloFlask\static\content\style.css" />
+    <Content Include="HelloFlask\static\jpg\171452.jpg" />
     <Content Include="HelloFlask\static\jpg\20292311.jpg" />
     <Content Include="HelloFlask\static\scripts\script.js" />
     <Content Include="requirements.txt" />
